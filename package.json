@@ -1,0 +1,25 @@
+{
+  "name": "mock-template",
+  "description": "Template mock data generator",
+  "repository": "meituan/mock-template",
+  "version": "0.0.2",
+  "keywords": [],
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "devDependencies": {
+    "nodeunit": "^0.9.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mock-generator": "^1.0.0",
+    "mock-random": "^1.0.0",
+    "debug": "*",
+    "handlebars": "^2.0.0",
+    "lodash": "^3.0.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/nodeunit"
+  }
+}
