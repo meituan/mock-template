@@ -14,7 +14,7 @@ Forked from [mockjs](https://github.com/nuysoft/Mock)
     var data = template.mock('{{title}}');
     // data => { title: 'title' }
 
-See [test](blob/master/test/template.js) for more example.
+See [test](test/template.js) for more example.
 
 ## License
 
